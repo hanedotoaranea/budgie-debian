@@ -5,6 +5,7 @@ firmware-atheros
 firmware-amd-graphics
 xorg
 sudo
+qterminal
 xserver-xorg-input-libinput
 budgie-desktop
 budgie-calendar-applet

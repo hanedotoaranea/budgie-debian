@@ -8,11 +8,6 @@ sudo
 qterminal
 xserver-xorg-input-libinput
 budgie-desktop
-budgie-calendar-applet
-budgie-screenshot-applet
-budgie-indicator-applet
-budgie-haste-applet
-budgie-weather-show-applet
 gnome-control-center
 libinput-tools
 tlp

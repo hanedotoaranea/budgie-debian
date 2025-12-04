@@ -4,6 +4,7 @@ firmware-realtek
 firmware-atheros
 firmware-amd-graphics
 xorg
+sudo
 xserver-xorg-input-libinput
 budgie-desktop
 budgie-calendar-applet

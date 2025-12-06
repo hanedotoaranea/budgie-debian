@@ -3,6 +3,7 @@ firmware-iwlwifi
 firmware-realtek
 firmware-atheros
 firmware-amd-graphics
+linux-image-amd64
 xorg
 sudo
 nautilus

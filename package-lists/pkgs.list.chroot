@@ -12,7 +12,6 @@ libinput-tools
 tlp
 tlp-rdw
 powertop
-thermald
 cpufrequtils
 pcmanfm-qt
 sddm

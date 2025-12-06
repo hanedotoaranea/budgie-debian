@@ -8,7 +8,6 @@ sudo
 qterminal
 xserver-xorg-input-libinput
 budgie-desktop
-gnome-control-center
 libinput-tools
 tlp
 tlp-rdw

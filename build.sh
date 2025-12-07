@@ -1,8 +1,10 @@
-lb config -d trixie \
+   lb config -d testing \
+          --distribution "trixie" \
+          --binary-images iso-hybrid \
           --architectures amd64 \
           --binary-images iso \
           --iso-volume "Alice_$(date +%Y%m%d)" \  
-          --archive-areas "main contrib non-free" \
+           --archive-areas "main contrib non-free non-free-firmware" \
           --debootstrap-options "--variant=standard --include=sudo,locales,keyboard-configuration" \
           --iso-publisher "hanedotoaranea - https://github.com/hanedotoaranea" \
           --iso-application "GitHub:https://github.com/hanedotoaranea/budgie-debian-13" \
@@ -22,6 +24,6 @@ lb config -d trixie \
           --bootloader-timeout 5 \   
           --hdd-label "ALICE_OS" \
           --system normal \ 
-          --cache false
+          --cache false \
     
 sudo lb build

@@ -38,7 +38,6 @@ gstreamer1.0-plugins-base
 gstreamer1.0-x
 libavcodec-extra
 libbluray2
-libdvd-pkg
 pavucontrol-qt
 rhythmbox
 clementine

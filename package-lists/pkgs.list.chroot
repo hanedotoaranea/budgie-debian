@@ -55,7 +55,6 @@ fbreader
 okular
 file-roller
 p7zip-full
-unrar
 unzip
 zip
 xz-utils
@@ -71,7 +70,6 @@ mtools
 exfatprogs
 cifs-utils
 smbclient
-hfsprogs
 udftools
 xorriso
 nfs-common
@@ -81,9 +79,7 @@ btrfs-progs
 xfsprogs
 jfsutils
 f2fs-tools
-nilfs-tools
 minix-tools
-zfsutils-linux
 mtd-utils
 squashfs-tools
 cryptsetup
@@ -97,7 +93,6 @@ testdisk
 kodi
 syncthing
 fastfetch
-libdvd-pkg
 build-essential
 syncthing-gtk
 gnome-screenshot 

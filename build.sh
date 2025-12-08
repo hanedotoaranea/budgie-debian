@@ -1,4 +1,4 @@
-   lb config  \
+   lb config \
           --debian-installer-gui true \
           --distribution "bookworm" \
           --architectures amd64 \

@@ -1,13 +1,17 @@
-   lb config \
+
+lb config -d bookworm \
+          --distribution bookworm 
+          --debian-installer live \
+          --debian-installer-distribution bookworm \
           --debian-installer-gui true \
           --distribution "bookworm" \
           --architectures amd64 \
-          --binary-images iso \
+          --binary-images iso-hybrid \
           --iso-volume "Alice_$(date +%Y%m%d)" \  
           --archive-areas "main contrib non-free non-free-firmware" \
           --debootstrap-options "--variant=standard --include=sudo,locales,keyboard-configuration" \
           --iso-publisher "hanedotoaranea - https://github.com/hanedotoaranea" \
-          --iso-application "GitHub:https://github.com/hanedotoaranea/budgie-debian-13" \
+          --iso-application "GitHub:https://github.com/hanedotoaranea/" \
           --checksums sha256 \
           --mirror-bootstrap http://deb.debian.org/debian \
           --mirror-binary http://deb.debian.org/debian \
@@ -19,6 +23,6 @@
           --updates true \              
           --bootloader-timeout 5 \   
           --hdd-label "ALICE_OS" \
-          --cache false \
+          --color \
     
 sudo lb build
